@@ -11,10 +11,14 @@ import {
     StyleSheet,
     StatusBar,
 } from 'react-native';
+import HomeScreen from "./screens/HomeScreen";
 
 const App = () => {
     return (
-        <StatusBar barStyle="dark-content"/>
+        <>
+            <StatusBar barStyle="dark-content"/>
+            <HomeScreen/>
+        </>
     );
 };
 
